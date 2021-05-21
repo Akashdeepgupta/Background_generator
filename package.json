@@ -1,0 +1,14 @@
+{
+  "name": "background_gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bg_gen.js",
+  "scripts": {
+    "build": "browserify bg_gen.js > bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
